@@ -1,2 +1,3 @@
-# tani
-Topological Analysis of nD Images
+# Topological Analysis of nD Images
+
+An nD images topological analysis toolkit for Python.
