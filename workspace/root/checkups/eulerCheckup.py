@@ -1,5 +1,5 @@
 import numpy as np
-from rootPackages.connectedComponent.ccMethods import euler
+from root.connectedComponent.ccMethods import euler
 
 '''
 This module is intended to verify the reliability of the euler function output

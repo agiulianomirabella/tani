@@ -1,6 +1,3 @@
-import sys
-sys.path.append('/home/giuliano/Desktop/tabi/VSCodeWS_TABI')
-
 import numpy as np
 import time
 from general.preProcessing import colorNormalizationRange

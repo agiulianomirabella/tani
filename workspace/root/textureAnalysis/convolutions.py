@@ -9,7 +9,7 @@ to a small sized squared window centered in each ncell of the image.
 '''
 
 def applyFunctionConvolution(image, function, windowWidth):
-    #returns a dict (center) -> value of the convolution applied to the center located in center
+    #returns a dict (center) -> value of the convolution applied to the window located in center
     if windowWidth%2 == 0:
         print('WARNING: windowWidth must be an odd number, 3 is being used by default')
         windowWidth = 3

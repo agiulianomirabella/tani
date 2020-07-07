@@ -2,8 +2,8 @@ import numpy as np
 import time
 from scipy.ndimage import label, find_objects
 from scipy.ndimage.morphology import generate_binary_structure
-from rootPackages.general.utils.dataPreProcessing import binarize
-from rootPackages.globalTopology.edgeDetection import extractEdges
+from root.general.utils.dataPreProcessing import binarize
+from root.globalTopology.edgeDetection import extractEdges
 
 '''
 This module is intended to define functions to extract CCs from a ndimage, 

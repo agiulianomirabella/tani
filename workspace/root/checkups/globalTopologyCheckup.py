@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from rootPackages.globalTopology.globalTopology import topologicalHistogram
-from rootPackages.general.utils.dataExploration import display2DImage
+from root.globalTopology.globalTopology import topologicalHistogram
+from root.general.utils.dataExploration import display2DImage
 
 '''
 This module is intended to verify the reliability of the global topological functions outputs

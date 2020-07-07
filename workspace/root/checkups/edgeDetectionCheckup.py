@@ -1,6 +1,6 @@
 import numpy as np
-from rootPackages.globalTopology.edgeDetection import extractEdges
-from rootPackages.connectedComponent.cell import dim
+from root.globalTopology.edgeDetection import extractEdges
+from root.connectedComponent.cell import dim
 
 '''
 This module is intended to verify the reliability of the edge detection function

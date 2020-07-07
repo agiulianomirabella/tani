@@ -1,10 +1,10 @@
 import numpy as np
 import time
-from rootPackages.general.utils.voxels import makeUnique
-from rootPackages.general.utils.dataExploration import printTime
-from rootPackages.general.utils.dataPreProcessing import addZeroMargins
-from rootPackages.textureAnalysis.convolutionUtils import extractWindow, is3x3Window
-from rootPackages.connectedComponent.ccMethods import getAllCells
+from root.general.utils.voxels import makeUnique
+from root.general.utils.dataExploration import printTime
+from root.general.utils.dataPreProcessing import addZeroMargins
+from root.textureAnalysis.convolutionUtils import extractWindow, is3x3Window
+from root.connectedComponent.ccMethods import getAllCells
 
 '''
 The pourpose of this module is to acquire all edges coordinates in a given an image

@@ -1,5 +1,5 @@
 import numpy as np
-from rootPackages.globalTopology.edgeDetection import extractEdges
+from root.globalTopology.edgeDetection import extractEdges
 
 a = np.array([
     [0,0,0],

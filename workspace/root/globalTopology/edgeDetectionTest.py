@@ -1,8 +1,8 @@
 import time
 import skimage.io as io
-from rootPackages.general.utils.dataExtraction import readImage
-from rootPackages.general.utils.dataExploration import printTime, displayImage
-from rootPackages.globalTopology.edgeDetection import extractEdges
+from root.general.utils.dataExtraction import readImage
+from root.general.utils.dataExploration import printTime, displayImage
+from root.globalTopology.edgeDetection import extractEdges
 
 def edgeDetectionTest():
     image2D = readImage("images/imageTest1.jpg")[:, :, 0]

@@ -1,7 +1,7 @@
 import numpy as np
 from copy import copy
-from rootPackages.connectedComponent.cell import getSubCells, dim
-from rootPackages.general.utils.voxels import makeUnique
+from root.connectedComponent.cell import getSubCells, dim
+from root.general.utils.voxels import makeUnique
 
 '''
 This module will define functions to extract CC features, 

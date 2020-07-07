@@ -1,6 +1,6 @@
 import numpy as np
-from rootPackages.general.utils.permutations import permutations1
-from rootPackages.general.utils.voxels import makeUnique
+from root.general.utils.permutations import permutations1
+from root.general.utils.voxels import makeUnique
 
 '''
 This module is intended to process and access cell's features, 

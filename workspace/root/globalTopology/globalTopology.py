@@ -1,7 +1,7 @@
 import numpy as np
 import time
-from rootPackages.globalTopology.ccExtraction import extractCCInfoByGrayValue
-from rootPackages.connectedComponent.ccMethods import euler
+from root.globalTopology.ccExtraction import extractCCInfoByGrayValue
+from root.connectedComponent.ccMethods import euler
 
 '''
 This module will define functions to compute a global topology output of an image.

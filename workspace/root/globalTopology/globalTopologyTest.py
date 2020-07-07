@@ -3,10 +3,10 @@ import time
 import pydicom as dcm
 import skimage.io as io
 import os
-from rootPackages.globalTopology.globalTopology import topologicalHistogram
-from rootPackages.general.utils.dataPreProcessing import digitizeToEqualWidth
-from rootPackages.globalTopology.ccExtraction import extractCCListByGrayValue
-from rootPackages.general.utils.dataExtraction import readDicomImageAsArray
+from root.globalTopology.globalTopology import topologicalHistogram
+from root.general.utils.dataPreProcessing import digitizeToEqualWidth
+from root.globalTopology.ccExtraction import extractCCListByGrayValue
+from root.general.utils.dataExtraction import readDicomImageAsArray
 
 '''
 This module is intended to test the global topology analysis on real biomedical images
