@@ -1,13 +1,6 @@
-import numpy as np
-import os
-import time
-import skimage.io as io
-import pydicom as dcm
-import matplotlib.pyplot as plt
-from scipy.ndimage.morphology import generate_binary_structure
 
 '''
-This module will provide some helpful auxiliary permutations functions
+This module will provide a helpful auxiliary permutation function
 '''
 
 #Initial maximum value for spaceDimension:

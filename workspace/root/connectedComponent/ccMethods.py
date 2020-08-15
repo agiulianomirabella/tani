@@ -4,8 +4,7 @@ from root.connectedComponent.cell import getSubCells, dim
 from root.general.utils.voxels import makeUnique
 
 '''
-This module will define functions to extract CC features, 
-such as its eulerchar.
+This module will define functions to extract CCs eulerchar feature.
 '''
 
 #A CC is a list of arrays (coordinates of cells belonging to the CC)

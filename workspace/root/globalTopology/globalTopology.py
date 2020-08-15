@@ -1,6 +1,6 @@
 import numpy as np
 import time
-from root.globalTopology.ccExtraction import extractCCInfoByGrayValue
+from root.globalTopology.ccExtraction import extractCCListByGrayValue
 from root.connectedComponent.ccMethods import euler
 
 '''
@@ -12,14 +12,13 @@ def topologicalHistogram(image, connectivity = -1):
     #return a dictionary which keys are: (grayValue, euler, size) and values: number of occurrences
     out = dict()
     grayValues = np.delete(np.unique(image), 0)
-    ccInfoListByGrayValue = extractCCInfoByGrayValue(image, connectivity)
-    for i, ccList in enumerate(ccInfoListByGrayValue):
-        for ccInfo in ccList:
-            x = euler(ccInfo[0])
-            print(x)
-            if (grayValues[i], x, ccInfo[1]) in out.keys():
-                out[(grayValues[i], x, ccInfo[1])] = out[(grayValues[i], x, ccInfo[1])] + 1
+    ccListByGrayValue = extractCCListByGrayValue(image, connectivity)
+    for i, ccList in enumerate(ccListByGrayValue):
+        for cc in ccList:
+            x = euler(cc)
+            if (grayValues[i], x, len(cc)) in out.keys():
+                out[(grayValues[i], x, len(cc))] = out[(grayValues[i], x, len(cc))] + 1
             else:
-                out.update({(grayValues[i], x, ccInfo[1]) : 1})
+                out.update({(grayValues[i], x, len(cc)) : 1})
     return out
 
